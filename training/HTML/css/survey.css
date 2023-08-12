@@ -1,0 +1,52 @@
+body{
+    font-size:20px ;
+}
+#outside{
+    background-color:white;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+form{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+#surveyform{
+ background-color: lightgoldenrodyellow;
+}
+
+fieldset{
+    border: 1px solid black;
+    border-radius: 16px;
+    margin: 10px;
+}
+legend{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+div+div{
+    margin-top: 16px;
+}
+
+ 
+button{
+   
+    color:white;
+    background-color: green;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 5px; 
+    
+   }
+
+   #button{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+   }

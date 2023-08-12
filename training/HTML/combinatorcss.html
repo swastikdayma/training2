@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div > p{
+        background-color: bisque;
+    }
+    /* div  p{
+        background-color: bisque;
+    } */
+    div+div{
+        background-color: aquamarine;
+    }
+    div~p{
+        background-color: blueviolet;
+    }
+
+
+</style>
+<body>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, maxime?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, maxime?</p>
+    </div>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quae!
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, unde?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nobis.</p>
+</body>
+</html>
